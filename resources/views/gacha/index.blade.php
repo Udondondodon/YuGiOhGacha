@@ -1,5 +1,4 @@
 @extends('layouts.main')
-@extends('partials.navbar')
 
 <style>
 .card {
@@ -41,9 +40,9 @@
 
 <body>
   <section class="h-screen" style="background-color: #001b35">
-    <div class="grid grid-cols-5 gap-2 my-2">
+    <div class="grid grid-cols-5 gap-2">
       @foreach ($randomCards as $card)
-      <div class="mt-20">
+      <div class="mt-16 flex flex-col items-center justify-center">
         <div class="card card__face">
           <img class="w-40 max-h-56" src="/Yugioh_Card_Back.jpg" alt="">
         </div>
@@ -53,7 +52,7 @@
       </div>
       @endforeach
     </div>
-    <div class="flex flex-col items-end mx-20 mt-5  ">
+    <div class="flex flex-col items-end mx-20 mt-5">
       <a href="/dashboard">
         <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-44">
           Back

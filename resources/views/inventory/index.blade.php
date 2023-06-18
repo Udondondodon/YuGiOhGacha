@@ -8,7 +8,7 @@
                 <div class="">
                     <div class="py-2 align-middle items-center flex flex-col px-8">
                         <div class="overflow-hidden rounded-lg">
-                            <table class="divide-y divide-gray-200">
+                            <table>
                                 <thead class="" style="background: #243b55">
                                     <tr>
                                         <th class="px-6 py-3 text-left text-base w-10 text-white">
@@ -22,7 +22,7 @@
                                         </th>
                                     </tr>
                                 </thead>
-                                <tbody class="bg-white divide-y divide-gray-200">
+                                <tbody style="background: #22446b">
                                     @php
                                     $uniqueCardIds = [];
                                     $count = 0;
@@ -36,14 +36,14 @@
                                     @endphp
                                     <tr>
                                         <td class="px-6 py-4">
-                                            <div class="text-sm font-medium text-center text-gray-900">
+                                            <div class="text-sm font-medium text-center text-white">
                                                 {{ $count }}
                                             </div>
                                         </td>
                                         <td class="py-4">
                                             <div class="flex items-center">
                                                 <div class="">
-                                                    <div class="text-sm font-medium text-gray-900">
+                                                    <div class="text-sm font-medium text-white">
                                                         {{ $item->card->title }}
                                                     </div>
                                                 </div>

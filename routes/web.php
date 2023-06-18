@@ -4,8 +4,6 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\MainController;
 
-
-
 // Home
 Route::get('/', [MainController::class, 'home',])->name('home')->middleware('guest');
 Route::get('/login', [MainController::class, 'log',])->middleware('guest');
@@ -22,9 +20,6 @@ Route::post('/logout', [AuthController::class, 'logout']);
 
 // Dashboard
 Route::get('/dashboard', [MainController::class, 'dashboard'])->name('dashboard')->middleware('Login');
-
-// Grind
-Route::get('/grind', [MainController::class, 'grind'])->middleware('Login');
 
 // Gacha
 Route::get('/gacha', [MainController::class, 'gacha'])->middleware('Login');

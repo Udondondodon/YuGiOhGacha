@@ -34,24 +34,20 @@
     
 <script>
   $(document).ready(function() {
-  $('#increaseGemsBtn').click(function() {
-    $.ajax({
-      url: '/increase',
-      type: 'get',
-      dataType: 'json',
-      success: function(response) {
-        if (response.success) {
-          var currentGems = parseInt(response.gems);
-          var currentGems = response.gems;
-          var newGems = currentGems + 1000;
-          $('.gems-value').text(parseInt(newGems));
-          var message = "Gems berhasil ditambahkan";
-          alert(message);
-          window.location.href = "/dashboard";
+    $('#increaseGemsBtn').click(function() {
+      $.ajax({
+        url: '/increase',
+        type: 'get',
+        dataType: 'json',
+        success: function(response) {
+          if (response.success) {
+            var message = "Gems berhasil ditambahkan";
+            alert(message);
+            window.location.href = "/dashboard";
+          }
         }
-      }
+      });
     });
   });
-});
-</script>
+  </script>
 @endsection

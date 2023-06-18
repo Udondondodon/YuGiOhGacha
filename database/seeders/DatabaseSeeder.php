@@ -6,6 +6,7 @@ namespace Database\Seeders;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use App\Models\Card;
+use App\Models\User;
 
 class DatabaseSeeder extends Seeder
 {
@@ -14,6 +15,13 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
+
+        User::create([
+            'name' => 'Udin',
+            'gems' => 999999999,
+            'password' => bcrypt('password'),
+        ]);
+
         Card::create([
             'title' => 'Time Wizard',
             'image' => 'https://vignette3.wikia.nocookie.net/yugioh/images/3/33/TimeWizard-LDK2-EN-C-1E.png',

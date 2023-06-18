@@ -31,17 +31,9 @@ class MainController extends Controller
         ]);
     }
 
-    public function grind(){
-
-        return view('grind.index', [
-            'title' => 'Grind',
-        ]);
-    }
-
     public function inventory() {
-        $inventories = Inventory::with('card')
-        ->get()
-        ->sortBy('card.title');
+        $inventories = Inventory::with('card')->get()->sortBy('card.id');
+        // $inventory = inventory::all();
         
         return view('inventory.index', compact('inventories'))->with([
             'title' => 'Inventory',
@@ -70,7 +62,7 @@ class MainController extends Controller
             $user->save();
             
             foreach ($randomCards as $card) {
-                $inventory = new Inventory(); // Membuat objek baru di setiap iterasi
+                $inventory = new Inventory();
                 $inventory->user = Auth::user()->name;
                 $inventory->user = $user->name;
                 $inventory->user_id = $user->id;

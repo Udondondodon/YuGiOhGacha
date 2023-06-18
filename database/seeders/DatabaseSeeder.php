@@ -67,7 +67,7 @@ class DatabaseSeeder extends Seeder
         Card::create([
             'title' => 'Dark Magician Girl',  
             'image' => 'https://vignette4.wikia.nocookie.net/yugioh/images/f/f2/DarkMagicianGirl-MVP1-EN-GUR-1E.png',
-            'lore' => 'This card gains 300 ATK for every \Dark Magician\ or \Magician of Black Chaos\ in either player Graveyard.',
+            'lore' => 'This card gains 300 ATK for every "Dark Magician" or "Magician of Black Chaos" in either player Graveyard.',
         ]);
 
         Card::create([
@@ -97,19 +97,19 @@ class DatabaseSeeder extends Seeder
         Card::create([
             'title' => 'Black Luster Soldier',  
             'image' => 'https://vignette4.wikia.nocookie.net/yugioh/images/3/3f/BlackLusterSoldier-YGLD-EN-C-1E.png',
-            'lore' => 'You can Ritual Summon this card with \ Black Luster Ritual\ .',
+            'lore' => 'You can Ritual Summon this card with "Black Luster Ritual" .',
         ]);
 
         Card::create([
             'title' => 'Silent Swordsman',  
             'image' => 'https://vignette1.wikia.nocookie.net/yugioh/images/1/16/SilentSwordsman-DPRP-EN-UR-1E.png',
-            'lore' => 'Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand) by Tributing 1 Warrior-Type monster, and cannot be Special Summoned by other ways. Once per turn, during the Standby Phase: This card gains 500 ATK. Once per turn, during either player s turn, when a Spell Card is activated: You can negate the activation. If this card is destroyed by battle, or if this card in its owner s control is destroyed by an opponent s card effect: You can Special Summon 1 \ Silent Swordsman\  monster from your hand or Deck, except \ Silent Swordsman\ , ignoring its Summoning conditions.',
+            'lore' => 'Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand) by Tributing 1 Warrior-Type monster, and cannot be Special Summoned by other ways. Once per turn, during the Standby Phase: This card gains 500 ATK. Once per turn, during either player s turn, when a Spell Card is activated: You can negate the activation. If this card is destroyed by battle, or if this card in its owner s control is destroyed by an opponent s card effect: You can Special Summon 1 "Silent Swordsman"  monster from your hand or Deck, except "Silent Swordsman" , ignoring its Summoning conditions.',
         ]);
 
         Card::create([
             'title' => 'Silent Magician',  
             'image' => 'https://vignette2.wikia.nocookie.net/yugioh/images/6/6e/SilentMagician-DPRP-EN-UR-1E.png',
-            'lore' => 'Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand) by Tributing 1 Spellcaster-Type monster, and cannot be Special Summoned by other ways. This card gains 500 ATK for each card in your hand. Once per turn, during either player s turn, when a Spell Card is activated: You can negate the activation. If this card is destroyed by battle, or if this card in its owner s control is destroyed by an opponent s card effect: You can Special Summon 1 \ Silent Magician\  monster from your hand or Deck, except \ Silent Magician\ , ignoring its Summoning conditions.',
+            'lore' => 'Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand) by Tributing 1 Spellcaster-Type monster, and cannot be Special Summoned by other ways. This card gains 500 ATK for each card in your hand. Once per turn, during either player s turn, when a Spell Card is activated: You can negate the activation. If this card is destroyed by battle, or if this card in its owner s control is destroyed by an opponent s card effect: You can Special Summon 1 "Silent Magician"  monster from your hand or Deck, except "Silent Magician" , ignoring its Summoning conditions.',
         ]);
 
         Card::create([
@@ -121,7 +121,7 @@ class DatabaseSeeder extends Seeder
         Card::create([
             'title' => 'Blue-Eyes Ultimate Dragon',  
             'image' => 'https://vignette1.wikia.nocookie.net/yugioh/images/d/dc/BlueEyesUltimateDragon-LDK2-EN-UR-1E.png',
-            'lore' => '\ Blue-Eyes White Dragon\  + \ Blue-Eyes White Dragon\  + \ Blue-Eyes White Dragon\ ',
+            'lore' => '"Blue-Eyes White Dragon"  + "Blue-Eyes White Dragon"  + "Blue-Eyes White Dragon"',
         ]);
 
         Card::create([
@@ -187,7 +187,7 @@ class DatabaseSeeder extends Seeder
         Card::create([
             'title' => 'Destiny Board',  
             'image' => 'https://vignette3.wikia.nocookie.net/yugioh/images/c/c7/DestinyBoard-DPRP-EN-C-1E.png',
-            'lore' => 'When this card and all 4 \ Spirit Message\  cards with different names are placed on your field, you win the Duel. Once per turn, during your opponent s End Phase: Place 1 \ Spirit Message\  card from your hand or Deck in your Spell \u0026 Trap Zone face-up, in the proper order of \ I\ , \ N\ , \ A\ , and \ L\ . When any \ Spirit Message\  card or \ Destiny Board\  you control leaves the field, send all \ Spirit Message\  cards and \ Destiny Board\  you control to the Graveyard.',
+            'lore' => 'When this card and all 4 "Spirit Message"  cards with different names are placed on your field, you win the Duel. Once per turn, during your opponents End Phase: Place 1 "Spirit Message"  card from your hand or Deck in your Spell \u0026 Trap Zone face-up, in the proper order of "I" , "N" , "A" , and "L" . When any "Spirit Message"  card or "Destiny Board"  you control leaves the field, send all "Spirit Message"  cards and "Destiny Board"  you control to the Graveyard.',
         ]);
 
         Card::create([
@@ -199,13 +199,13 @@ class DatabaseSeeder extends Seeder
         Card::create([
             'title' => 'Temple of the Kings',  
             'image' => 'https://vignette1.wikia.nocookie.net/yugioh/images/f/f5/TempleoftheKings-DPRP-EN-C-1E.png',
-            'lore' => 'You can activate 1 Trap Card the turn it was Set. You can send 1 \ Mystical Beast of Serket\  in your Monster Zone and this card you control to the Graveyard; Special Summon 1 monster from your hand or Deck, or 1 Fusion Monster from your Extra Deck. You can only use each effect of \ Temple of the Kings\  once per turn.',
+            'lore' => 'You can activate 1 Trap Card the turn it was Set. You can send 1 \ Mystical Beast of Serket\  in your Monster Zone and this card you control to the Graveyard; Special Summon 1 monster from your hand or Deck, or 1 Fusion Monster from your Extra Deck. You can only use each effect of "Temple of the Kings"  once per turn.',
         ]);
 
         Card::create([
             'title' => 'Mystical Beast of Serket',  
             'image' => 'https://vignette3.wikia.nocookie.net/yugioh/images/6/69/MysticalBeastofSerket-DPRP-EN-C-1E.png',
-            'lore' => 'If you do not control \ Temple of the Kings\ , destroy this card. Banish any monster destroyed by battle with this card. If this card destroys a monster by battle: It gains 500 ATK.',
+            'lore' => 'If you do not control "Temple of the Kings" , destroy this card. Banish any monster destroyed by battle with this card. If this card destroys a monster by battle: It gains 500 ATK.',
         ]);
 
         Card::create([
@@ -247,25 +247,25 @@ class DatabaseSeeder extends Seeder
         Card::create([
             'title' => 'Exchange of the Spirit',  
             'image' => 'https://vignette1.wikia.nocookie.net/yugioh/images/0/03/ExchangeoftheSpirit-DPRP-EN-C-1E.png',
-            'lore' => 'If both players have 15 or more cards in their Graveyards: Pay 1000 LP; each player swaps the cards in their Graveyard with the cards in their Deck, then shuffles their Deck. You can only activate 1 \ Exchange of the Spirit\  per Duel.',
+            'lore' => 'If both players have 15 or more cards in their Graveyards: Pay 1000 LP; each player swaps the cards in their Graveyard with the cards in their Deck, then shuffles their Deck. You can only activate 1 "Exchange of the Spirit"  per Duel.',
         ]);
 
         Card::create([
             'title' => 'Great Moth',  
             'image' => 'https://vignette1.wikia.nocookie.net/yugioh/images/8/84/GreatMoth-DB2-EN-C-UE.png',
-            'lore' => 'This monster cannot be Normal Summoned or Set. This card can only be Special Summoned by Tributing \ Petit Moth\  on the 4th of your turns after \ Petit Moth\  has been equipped with \ Cocoon of Evolution\ .',
+            'lore' => 'This monster cannot be Normal Summoned or Set. This card can only be Special Summoned by Tributing \ Petit Moth\  on the 4th of your turns after "Petit Moth"  has been equipped with "Cocoon of Evolution".',
         ]);
 
         Card::create([
             'title' => 'Perfectly Ultimate Great Moth',  
             'image' => 'https://vignette4.wikia.nocookie.net/yugioh/images/8/84/PerfectlyUltimateGreatMoth-DB2-EN-UR-UE.jpg',
-            'lore' => 'This card cannot be Normal Summoned or Set. This monster can only be Special Summoned by Tributing \ Petit Moth\  on the 6th of your turns after \ Petit Moth\  has been equipped with \ Cocoon of Evolution\ .',
+            'lore' => 'This card cannot be Normal Summoned or Set. This monster can only be Special Summoned by Tributing \ Petit Moth\  on the 6th of your turns after "Petit Moth"  has been equipped with "Cocoon of Evolution".',
         ]);
 
         Card::create([
             'title' => 'Insect Queen',  
             'image' => 'https://vignette1.wikia.nocookie.net/yugioh/images/f/f3/InsectQueen-DPBC-EN-C-1E.png',
-            'lore' => 'Cannot declare an attack unless you Tribute 1 monster. This card gains 200 ATK for each Insect-Type monster on the field. During the End Phase, if this card destroyed an opponent s monster by battle this turn: Special Summon 1 \ Insect Monster Token\  (Insect-Type/EARTH/Level 1/ATK 100/DEF 100) in Attack Position.',
+            'lore' => 'Cannot declare an attack unless you Tribute 1 monster. This card gains 200 ATK for each Insect-Type monster on the field. During the End Phase, if this card destroyed an opponent s monster by battle this turn: Special Summon 1 "Insect Monster Token"  (Insect-Type/EARTH/Level 1/ATK 100/DEF 100) in Attack Position.',
         ]);
 
         Card::create([
@@ -301,13 +301,13 @@ class DatabaseSeeder extends Seeder
         Card::create([
             'title' => 'The Legendary Fisherman',  
             'image' => 'https://vignette2.wikia.nocookie.net/yugioh/images/c/c9/TheLegendaryFisherman-SP17-EN-C-1E.png',
-            'lore' => 'While \ Umi\  is on the field, this card is unaffected by Spell effects and cannot be targeted for attacks, but does not prevent your opponent from attacking you directly.',
+            'lore' => 'While "Umi"  is on the field, this card is unaffected by Spell effects and cannot be targeted for attacks, but does not prevent your opponent from attacking you directly.',
         ]);
 
         Card::create([
             'title' => 'Fortress Whale',  
             'image' => 'https://vignette3.wikia.nocookie.net/yugioh/images/1/18/FortressWhale-TP7-EN-SR-UE.png',
-            'lore' => 'This monster can only be Ritual Summoned with the Ritual Spell Card, \ Fortress Whale s Oath\ .',
+            'lore' => 'This monster can only be Ritual Summoned with the Ritual Spell Card, "Fortress Whale s Oath" .',
         ]);
 
         Card::create([
@@ -325,19 +325,19 @@ class DatabaseSeeder extends Seeder
         Card::create([
             'title' => 'Relinquished',  
             'image' => 'https://vignette2.wikia.nocookie.net/yugioh/images/3/3c/Relinquished-MIL1-EN-C-1E.png',
-            'lore' => 'You can Ritual Summon this card with \ Black Illusion Ritual\ . Once per turn: You can target 1 monster your opponent controls; equip that target to this card. (You can only equip 1 monster at a time to this card with this effect.) This card s ATK and DEF become equal to that equipped monster s. If this card would be destroyed by battle, destroy that equipped monster instead. While equipped with that monster, any battle damage you take from battles involving this card inflicts equal effect damage to your opponent.',
+            'lore' => 'You can Ritual Summon this card with "Black Illusion Ritual" . Once per turn: You can target 1 monster your opponent controls; equip that target to this card. (You can only equip 1 monster at a time to this card with this effect.) This card s ATK and DEF become equal to that equipped monsters. If this card would be destroyed by battle, destroy that equipped monster instead. While equipped with that monster, any battle damage you take from battles involving this card inflicts equal effect damage to your opponent.',
         ]);
 
         Card::create([
             'title' => 'Thousand-Eyes Restrict',  
             'image' => 'https://vignette2.wikia.nocookie.net/yugioh/images/a/af/ThousandEyesRestrict-DPRP-EN-R-1E.png',
-            'lore' => '\ Relinquished\  + \ Thousand-Eyes Idol\  /Other monsters on the field cannot change their battle positions or attack. Once per turn: You can target 1 monster your opponent controls; equip that target to this card. (You can only equip 1 monster at a time to this card with this effect.) This card s ATK and DEF become equal to that equipped monster s. If this card would be destroyed by battle, destroy that equipped monster instead.',
+            'lore' => '"Relinquished"  + "Thousand-Eyes Idol"  /Other monsters on the field cannot change their battle positions or attack. Once per turn: You can target 1 monster your opponent controls; equip that target to this card. (You can only equip 1 monster at a time to this card with this effect.) This card s ATK and DEF become equal to that equipped monster s. If this card would be destroyed by battle, destroy that equipped monster instead.',
         ]);
 
         Card::create([
             'title' => 'Gate Guardian',  
             'image' => 'https://vignette1.wikia.nocookie.net/yugioh/images/0/03/GateGuardian-LCJW-EN-C-1E.png',
-            'lore' => 'Cannot be Normal Summoned/Set. Must first be Special Summoned (from your hand) by Tributing 1 \ Sanga of the Thunder\ , \ Kazejin\ , and \ Suijin\ .',
+            'lore' => 'Cannot be Normal Summoned/Set. Must first be Special Summoned (from your hand) by Tributing 1 "Sanga of the Thunder" , "Kazejin" , and "Suijin".',
         ]);
 
         Card::create([
@@ -373,7 +373,7 @@ class DatabaseSeeder extends Seeder
         Card::create([
             'title' => 'Exodia the Forbidden One',  
             'image' => 'https://vignette2.wikia.nocookie.net/yugioh/images/d/dc/ExodiatheForbiddenOne-LDK2-EN-C-1E.png',
-            'lore' => 'If you have \ Right Leg of the Forbidden One\ , \ Left Leg of the Forbidden One\ , \ Right Arm of the Forbidden One\  and \ Left Arm of the Forbidden One\  in addition to this card in your hand, you win the Duel.',
+            'lore' => 'If you have "Right Leg of the Forbidden One" , "Left Leg of the Forbidden One", "Right Arm of the Forbidden One"  and "Left Arm of the Forbidden One"  in addition to this card in your hand, you win the Duel.',
         ]);
 
         Card::create([
@@ -415,7 +415,7 @@ class DatabaseSeeder extends Seeder
         Card::create([
             'title' => 'Elemental HERO Flame Wingman',  
             'image' => 'https://vignette1.wikia.nocookie.net/yugioh/images/d/dd/ElementalHEROFlameWingman-RYMP-EN-R-1E.png',
-            'lore' => '\ Elemental HERO Avian\  + \ Elemental HERO Burstinatrix\  /Must be Fusion Summoned and cannot be Special Summoned by other ways. When this card destroys a monster by battle and sends it to the Graveyard: Inflict damage to your opponent equal to the ATK of the destroyed monster in the Graveyard.',
+            'lore' => '"Elemental HERO Avian"  + "Elemental HERO Burstinatrix"  "Must be Fusion Summoned and cannot be Special Summoned by other ways. When this card destroys a monster by battle and sends it to the Graveyard: Inflict damage to your opponent equal to the ATK of the destroyed monster in the Graveyard.',
         ]);
 
         Card::create([
@@ -439,13 +439,13 @@ class DatabaseSeeder extends Seeder
         Card::create([
             'title' => 'Armed Dragon LV7',  
             'image' => 'https://vignette4.wikia.nocookie.net/yugioh/images/6/6e/ArmedDragonLV7-LCYW-EN-C-1E.png',
-            'lore' => 'Cannot be Normal Summoned/Set. Must be Special Summoned by \ Armed Dragon LV5\ , and cannot be Special Summoned by other ways. You can send 1 monster from your hand to the Graveyard; destroy all face-up monsters your opponent controls with ATK less than or equal to the sent monster s ATK.',
+            'lore' => 'Cannot be Normal Summoned/Set. Must be Special Summoned by "Armed Dragon LV5" , and cannot be Special Summoned by other ways. You can send 1 monster from your hand to the Graveyard; destroy all face-up monsters your opponent controls with ATK less than or equal to the sent monster s ATK.',
         ]);
 
         Card::create([
             'title' => 'Cyber Blader',  
             'image' => 'https://vignette4.wikia.nocookie.net/yugioh/images/4/46/CyberBlader-DR04-NA-R-UE.png',
-            'lore' => '\ Etoile Cyber\  + \ Blade Skater\  /A Fusion Summon of this card can only be conducted with the above Fusion Material Monsters. While your opponent controls only 1 monster, this card cannot be destroyed by battle. While your opponent controls only 2 monsters, double this card s ATK. While your opponent controls only 3 monsters, negate the effects of your opponent s Spell, Trap, and Effect Monsters.',
+            'lore' => '"Etoile Cyber"  + "Blade Skater"  /A Fusion Summon of this card can only be conducted with the above Fusion Material Monsters. While your opponent controls only 1 monster, this card cannot be destroyed by battle. While your opponent controls only 2 monsters, double this card s ATK. While your opponent controls only 3 monsters, negate the effects of your opponent s Spell, Trap, and Effect Monsters.',
         ]);
 
         Card::create([
@@ -457,31 +457,31 @@ class DatabaseSeeder extends Seeder
         Card::create([
             'title' => 'Cyber Angel Benten',  
             'image' => 'https://vignette1.wikia.nocookie.net/yugioh/images/d/da/CyberAngelBenten-DRL3-EN-ScR-1E.png',
-            'lore' => 'You can Ritual Summon this card with \ Machine Angel Ritual\ . If this card destroys a monster by battle and sends it to the Graveyard: Inflict damage to your opponent equal to that monster s original DEF in the Graveyard. If this card is Tributed: You can add 1 LIGHT Fairy-Type monster from your Deck to your hand.',
+            'lore' => 'You can Ritual Summon this card with "Machine Angel Ritual". If this card destroys a monster by battle and sends it to the Graveyard: Inflict damage to your opponent equal to that monster s original DEF in the Graveyard. If this card is Tributed: You can add 1 LIGHT Fairy-Type monster from your Deck to your hand.',
         ]);
 
         Card::create([
             'title' => 'Junk Warrior',  
             'image' => 'https://vignette2.wikia.nocookie.net/yugioh/images/0/06/JunkWarrior-SDSE-EN-C-1E.png',
-            'lore' => '\ Junk Synchron\  + 1 or more non-Tuner monsters /If this card is Synchro Summoned: It gains ATK equal to the total ATK of all Level 2 or lower monsters you currently control.',
+            'lore' => '"Junk Synchron" + 1 or more non-Tuner monsters /If this card is Synchro Summoned: It gains ATK equal to the total ATK of all Level 2 or lower monsters you currently control.',
         ]);
 
         Card::create([
             'title' => 'Majestic Star Dragon',  
             'image' => 'https://vignette2.wikia.nocookie.net/yugioh/images/5/59/MajesticStarDragon-LC5D-EN-SR-1E.png',
-            'lore' => '\ Majestic Dragon\  + \ Stardust Dragon\  + 1 non-Tuner monster /During either player s turn, when your opponent activates a card or effect: You can Tribute this card; negate the activation, and if you do, destroy all cards your opponent controls. Once per turn: You can target 1 face-up monster your opponent controls; negate its effects until the end of this turn, and you can activate 1 of its effects as this card s effect once this turn. During the End Phase: Target 1 \ Stardust Dragon\  in your Graveyard; return this card from the field to the Extra Deck, then Special Summon that target.',
+            'lore' => '"Majestic Dragon"  + "Stardust Dragon"  + 1 non-Tuner monster /During either player s turn, when your opponent activates a card or effect: You can Tribute this card; negate the activation, and if you do, destroy all cards your opponent controls. Once per turn: You can target 1 face-up monster your opponent controls; negate its effects until the end of this turn, and you can activate 1 of its effects as this card s effect once this turn. During the End Phase: Target 1 "Stardust Dragon"  in your Graveyard; return this card from the field to the Extra Deck, then Special Summon that target.',
         ]);
 
         Card::create([
             'title' => 'Shooting Quasar Dragon',  
             'image' => 'https://vignette1.wikia.nocookie.net/yugioh/images/8/8b/ShootingQuasarDragon-LC05-EN-UR-LE.png',
-            'lore' => '1 Tuner Synchro Monster + 2 or more non-Tuner Synchro Monsters /Must be Synchro Summoned, and cannot be Special Summoned by other ways. This card s maximum number of attacks per Battle Phase equals the number of non-Tuner monsters used as its Synchro Material. Once per turn, during either player s turn, when a card or effect is activated: You can negate the activation, and if you do, destroy it. When this card leaves the field: You can Special Summon 1 \ Shooting Star Dragon\  from your Extra Deck.',
+            'lore' => '1 Tuner Synchro Monster + 2 or more non-Tuner Synchro Monsters /Must be Synchro Summoned, and cannot be Special Summoned by other ways. This card s maximum number of attacks per Battle Phase equals the number of non-Tuner monsters used as its Synchro Material. Once per turn, during either player s turn, when a card or effect is activated: You can negate the activation, and if you do, destroy it. When this card leaves the field: You can Special Summon 1 "Shooting Star Dragon"  from your Extra Deck.',
         ]);
 
         Card::create([
             'title' => 'Shooting Star Dragon',  
             'image' => 'https://vignette2.wikia.nocookie.net/yugioh/images/f/fb/ShootingStarDragon-LC5D-EN-SR-1E.png',
-            'lore' => '1 Tuner Synchro Monster + \ Stardust Dragon\  /Once per turn: You can excavate the top 5 cards of your Deck, shuffle them back in, also this card s maximum number of attacks per Battle Phase this turn equals the number of Tuner monsters excavated. Once per turn, during either player s turn, when a card or effect is activated that would destroy a card(s) on the field: You can negate the effect, and if you do, destroy it. Once per turn, when an opponent s monster declares an attack: You can target the attacking monster; banish this card, and if you do, negate that attack. During the next End Phase: Special Summon this card banished by this effect.',
+            'lore' => '1 Tuner Synchro Monster + "Stardust Dragon"  /Once per turn: You can excavate the top 5 cards of your Deck, shuffle them back in, also this card s maximum number of attacks per Battle Phase this turn equals the number of Tuner monsters excavated. Once per turn, during either player s turn, when a card or effect is activated that would destroy a card(s) on the field: You can negate the effect, and if you do, destroy it. Once per turn, when an opponent s monster declares an attack: You can target the attacking monster; banish this card, and if you do, negate that attack. During the next End Phase: Special Summon this card banished by this effect.',
         ]);
 
         Card::create([
@@ -493,13 +493,13 @@ class DatabaseSeeder extends Seeder
         Card::create([
             'title' => 'Majestic Red Dragon',  
             'image' => 'https://vignette4.wikia.nocookie.net/yugioh/images/c/c0/MajesticRedDragon-LC5D-EN-SR-1E.png',
-            'lore' => '\ Majestic Dragon\  + \ Red Dragon Archfiend\  + 1 non-Tuner monster /Cannot be destroyed by card effects. After damage calculation, if this card attacks: Destroy all Defense Position monsters on the field. Once per turn: You can target 1 face-up monster your opponent controls; negate its effects, and if you do, this card gains ATK equal to that monster s ATK. These changes last until the end of this turn. During the End Phase: Target 1 \ Red Dragon Archfiend\  in your Graveyard; return this card from the field to the Extra Deck, then Special Summon that target.',
+            'lore' => '"Majestic Dragon"  + "Red Dragon Archfiend"  + 1 non-Tuner monster /Cannot be destroyed by card effects. After damage calculation, if this card attacks: Destroy all Defense Position monsters on the field. Once per turn: You can target 1 face-up monster your opponent controls; negate its effects, and if you do, this card gains ATK equal to that monster s ATK. These changes last until the end of this turn. During the End Phase: Target 1 "Red Dragon Archfiend"  in your Graveyard; return this card from the field to the Extra Deck, then Special Summon that target.',
         ]);
 
         Card::create([
             'title' => 'Red Nova Dragon',  
             'image' => 'https://vignette4.wikia.nocookie.net/yugioh/images/2/2a/RedNovaDragon-HSRD-EN-R-1E.png',
-            'lore' => '2 Tuners + \ Red Dragon Archfiend\  /This card gains 500 ATK for each Tuner monster in your Graveyard. Cannot be destroyed by an opponent s card effects. When an opponent s monster declares an attack: You can target the attacking monster; banish this card, and if you do, negate that attack. During the next End Phase: Special Summon this card banished by this effect.',
+            'lore' => '2 Tuners + "Red Dragon Archfiend"  /This card gains 500 ATK for each Tuner monster in your Graveyard. Cannot be destroyed by an opponent s card effects. When an opponent s monster declares an attack: You can target the attacking monster; banish this card, and if you do, negate that attack. During the next End Phase: Special Summon this card banished by this effect.',
         ]);
 
         Card::create([
@@ -547,7 +547,7 @@ class DatabaseSeeder extends Seeder
         Card::create([
             'title' => 'Life Stream Dragon',  
             'image' => 'https://vignette3.wikia.nocookie.net/yugioh/images/3/33/LifeStreamDragon-LC5D-EN-C-1E.png',
-            'lore' => '1 Tuner + \ Power Tool Dragon\  /When this card is Synchro Summoned: You can make your LP become 4000. You take no effect damage. If this face-up card on the field would be destroyed, you can banish 1 Equip Spell Card from your Graveyard instead.',
+            'lore' => '1 Tuner + "Power Tool Dragon"  /When this card is Synchro Summoned: You can make your LP become 4000. You take no effect damage. If this face-up card on the field would be destroyed, you can banish 1 Equip Spell Card from your Graveyard instead.',
         ]);
 
         Card::create([
@@ -595,19 +595,19 @@ class DatabaseSeeder extends Seeder
         Card::create([
             'title' => 'Odd-Eyes Venom Dragon',  
             'image' => 'https://static.wikia.nocookie.net/yugioh/images/f/fe/OddEyesVenomDragon-BLLR-EN-ScR-1E.png',
-            'lore' => '1 \ Starving Venom\  monster + 1 \ Odd-Eyes\  monster /Must be either Fusion Summoned or Pendulum Summoned, and cannot be Special Summoned by other ways. Once per turn: You can target 1 face-up monster your opponent controls; until the End Phase, this card gains ATK equal to that monster s current ATK, this card s name becomes that monster s original name, and replace this effect with that monster s original effect. If this card in the Monster Zone is destroyed: You can Special Summon 1 card from your Pendulum Zone, and if you do, place this card in your Pendulum Zone.',
+            'lore' => '1 "Starving Venom"  monster + 1 "Odd-Eyes"  monster /Must be either Fusion Summoned or Pendulum Summoned, and cannot be Special Summoned by other ways. Once per turn: You can target 1 face-up monster your opponent controls; until the End Phase, this card gains ATK equal to that monster s current ATK, this card s name becomes that monster s original name, and replace this effect with that monster s original effect. If this card in the Monster Zone is destroyed: You can Special Summon 1 card from your Pendulum Zone, and if you do, place this card in your Pendulum Zone.',
         ]);
 
         Card::create([
             'title' => 'Bloom Diva the Melodious Choir',  
             'image' => 'https://vignette3.wikia.nocookie.net/yugioh/images/c/cf/BloomDivatheMelodiousChoir-SP17-EN-C-1E.png',
-            'lore' => '1 \ Melodious Maestra\  monster + 1 \ Melodious\  monster /Cannot be destroyed by battle or card effects, also you take no battle damage from attacks involving this card. If this card battles a Special Summoned monster, after damage calculation: You can inflict damage to your opponent equal to the difference between the original ATK of that opponent s monster and this card, and if you do, destroy that opponent s monster.',
+            'lore' => '1 "Melodious Maestra"  monster + 1 "Melodious"  monster /Cannot be destroyed by battle or card effects, also you take no battle damage from attacks involving this card. If this card battles a Special Summoned monster, after damage calculation: You can inflict damage to your opponent equal to the difference between the original ATK of that opponent s monster and this card, and if you do, destroy that opponent s monster.',
         ]);
 
         Card::create([
             'title' => 'Superheavy Samurai Big Benkei',  
             'image' => 'https://vignette4.wikia.nocookie.net/yugioh/images/2/29/SuperheavySamuraiBigBenkei-MP15-EN-R-1E.png',
-            'lore' => 'When this card is Normal or Special Summoned: You can change its battle position. \ Superheavy Samurai\  monsters you control can attack while in face-up Defense Position. If they do, apply their DEF for damage calculation.',
+            'lore' => 'When this card is Normal or Special Summoned: You can change its battle position. "Superheavy Samurai"  monsters you control can attack while in face-up Defense Position. If they do, apply their DEF for damage calculation.',
         ]);
 
         Card::create([
@@ -619,7 +619,7 @@ class DatabaseSeeder extends Seeder
         Card::create([
             'title' => 'Abyss Actor - Superstar',  
             'image' => 'https://vignette1.wikia.nocookie.net/yugioh/images/6/64/AbyssActorSuperstar-DESO-EN-ScR-1E.png',
-            'lore' => 'When Normal or Special Summoned, your opponent s Spell/Trap Cards and effects cannot be activated. Once per turn: You can Set 1 \ Abyss Script\  Spell Card directly from your Deck, but it is sent to the Graveyard during the End Phase.',
+            'lore' => 'When Normal or Special Summoned, your opponent s Spell/Trap Cards and effects cannot be activated. Once per turn: You can Set 1 "Abyss Script"  Spell Card directly from your Deck, but it is sent to the Graveyard during the End Phase.',
         ]);
     }
 }

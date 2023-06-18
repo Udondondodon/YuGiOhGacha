@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('user');
             $table->unsignedBigInteger('user_id');
-            $table->string('card');
+            $table->unsignedBigInteger('card_id');
             $table->timestamps();
         });
     }

@@ -29,5 +29,9 @@ Route::get('/grind', [MainController::class, 'grind'])->middleware('Login');
 // Gacha
 Route::get('/gacha', [MainController::class, 'gacha'])->middleware('Login');
 
+// Inventory
+Route::get('/inventory', [MainController::class, 'inventory'])->middleware('Login');
+Route::get('/card/{id}', [MainController::class, 'detail'])->middleware('Login');
+
 // Update Gems
 Route::get('/increase', [MainController::class, 'increase'])->name('increase-gems');

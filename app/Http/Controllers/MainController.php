@@ -33,7 +33,6 @@ class MainController extends Controller
 
     public function inventory() {
         $inventories = Inventory::with('card')->get()->sortBy('card.id');
-        // $inventory = inventory::all();
         
         return view('inventory.index', compact('inventories'))->with([
             'title' => 'Inventory',

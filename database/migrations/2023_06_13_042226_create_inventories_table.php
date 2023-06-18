@@ -13,7 +13,9 @@ return new class extends Migration
     {
         Schema::create('inventories', function (Blueprint $table) {
             $table->id();
-            $table->string();
+            $table->string('user');
+            $table->unsignedBigInteger('user_id');
+            $table->string('card');
             $table->timestamps();
         });
     }

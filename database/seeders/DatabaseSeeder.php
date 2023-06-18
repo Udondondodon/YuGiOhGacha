@@ -64,7 +64,7 @@ class DatabaseSeeder extends Seeder
 
         Card::create([
             'title' => 'Decode Talker',  
-            'image' => 'https://vignette3.wikia.nocookie.net/yugioh/images/0/0f/DecodeTalker-ST17-EN-OP.png',
+            'image' => 'https://ms.yugipedia.com//thumb/f/f0/DecodeTalker-DUDE-EN-UR-1E.png/450px-DecodeTalker-DUDE-EN-UR-1E.png',
             'lore' => 'Link 3 - Effect Monsters - min. 2 This card gains 500 ATK for each monster linked to it. During either player turn, when your opponent activates a card or effect that targets a card(s) you control: You can Tribute 1 monster linked to this card; negate the activation, and if you do, destroy that card.',
         ]);
 
@@ -586,7 +586,7 @@ class DatabaseSeeder extends Seeder
 
         Card::create([
             'title' => 'Odd-Eyes Venom Dragon',  
-            'image' => 'https://vignette3.wikia.nocookie.net/yugioh/images/d/dd/OddEyesVenomDragon-CP17-JP-OP.png',
+            'image' => 'https://static.wikia.nocookie.net/yugioh/images/f/fe/OddEyesVenomDragon-BLLR-EN-ScR-1E.png',
             'lore' => '1 \ Starving Venom\  monster + 1 \ Odd-Eyes\  monster /Must be either Fusion Summoned or Pendulum Summoned, and cannot be Special Summoned by other ways. Once per turn: You can target 1 face-up monster your opponent controls; until the End Phase, this card gains ATK equal to that monster s current ATK, this card s name becomes that monster s original name, and replace this effect with that monster s original effect. If this card in the Monster Zone is destroyed: You can Special Summon 1 card from your Pendulum Zone, and if you do, place this card in your Pendulum Zone.',
         ]);
 

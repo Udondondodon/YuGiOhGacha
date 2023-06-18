@@ -9,11 +9,7 @@
                     <h1 class="text-xl font-bold md:text-2xl text-white text-center">Choose Beetwen One Of This</h1>
                 </div>
                 <div class="p-4 space-y-4 items-center flex justify-center">
-                    <a href="/grind">
-                        <button class="text-xl font-bold md:text-2xl bg-sky-600 hover:bg-sky-800 text-white rounded-xl p-2 px-10">
-                            Grind
-                        </button>
-                    </a>
+                    <button class="text-xl font-bold md:text-2xl bg-sky-600 hover:bg-sky-800 text-white rounded-xl p-2 px-10" id="increaseGemsBtn">Grind</button>
                 </div>
                 <div class="p-4 space-y-4 items-center flex justify-center">
                     <a href="/gacha">
@@ -24,5 +20,31 @@
                 </div>
             </div>
         </div>
-      </section>
+    </section>
 </div>
+
+@section('scripts')
+    
+<script>
+  $(document).ready(function() {
+  $('#increaseGemsBtn').click(function() {
+    $.ajax({
+      url: '/increase',
+      type: 'get',
+      dataType: 'json',
+      success: function(response) {
+        if (response.success) {
+          var currentGems = parseInt(response.gems);
+          var currentGems = response.gems;
+          var newGems = currentGems + 1000;
+          $('.gems-value').text(parseInt(newGems));
+          var message = "Gems berhasil ditambahkan";
+          alert(message);
+          window.location.href = "/dashboard";
+        }
+      }
+    });
+  });
+});
+</script>
+@endsection

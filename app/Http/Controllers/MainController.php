@@ -37,17 +37,24 @@ class MainController extends Controller
         ]);
     }
     public function gacha() {
-        $cards = Card::paginate(100);
-        return view('gacha.index', 
-            compact('cards'), [
-            'title' => 'Grind'
-        ]);
+        $randomCards = Card::inRandomOrder()->take(10)->get();
+
+        $user = Auth()->user();
+        if ($user->gems < 999) {
+            return redirect('dashboard');
+        }
+        if ($user->gems > 1000) {
+            $user->gems -= 1000;
+            $user->save();
+            return view('gacha.index', compact('randomCards'), ['title' => 'Gacha']);
+        }
+
     }
 
     public function increase()
     {
         $user = Auth::user();
-        $user->gems += 1000;
+        $user->gems += mt_rand(500, 1000);
         $user->save();
         
         return response()->json(['success' => true]);

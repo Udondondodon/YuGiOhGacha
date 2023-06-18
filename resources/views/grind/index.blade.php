@@ -29,7 +29,6 @@
           $('.gems-value').text(parseInt(newGems));
           var message = "Gems 1000 berhasil ditambahkan";
           alert(message);
-
           window.location.href = "/grind";
         }
       }

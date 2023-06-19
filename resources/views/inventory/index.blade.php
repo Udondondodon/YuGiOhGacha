@@ -3,8 +3,15 @@
 
 <div>
     <body class="h-screen" style="background-color: #001b35">  
-        <section class="h-screen" style="background-color: #001b35">
+        <section class="" style="background-color: #001b35">
             <div class="flex flex-col mt-20">
+                <div class="flex flex-col items-start mx-20 mt-5">
+                    <a href="/dashboard">
+                      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-44">
+                        Back
+                      </button>
+                    </a>
+                  </div>
                 <div class="">
                     <div class="py-2 align-middle items-center flex flex-col px-8">
                         <div class="overflow-hidden rounded-lg">

@@ -6,7 +6,8 @@
     <title>Gacha Yu-Gi-Oh! | {{ $title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='icon' type="image/x-icon" href='/duel_links_icon.png'>
-    <link rel="stylesheet" href="{{ mix('/resources/css/app.css') }}">
+    {{-- <link rel="stylesheet" href="{{ mix('resources/css/app.css') }}"> --}}
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
   </head>
   <body>
     <div class ='container'>
